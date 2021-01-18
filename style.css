@@ -1,0 +1,51 @@
+*,
+*:before,
+*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+section{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+
+}
+section video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+section h2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: uppercase;
+	font-size: 15vw;
+	text-align: center;
+	font-weight: 800;
+	line-height: 0.85em;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.95);
+	mix-blend-mode: multiply;
+}
+section h2 span{
+	font-size: 0.4em;
+	line-height: 0.85em;
+}
+
+
+
+
+
